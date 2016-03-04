@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+/*
+* {
+  margin: 0; 
+  padding: 0;
+}
+*/
+
 body {
+  /* ゴシック体 */
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  
+  /* 明朝体 */
+  /*font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;*/
+
   background-color: rgba(0, 178, 255, 0.5);
 }
