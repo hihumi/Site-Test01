@@ -10,7 +10,7 @@ jQuery.noConflict();
                       .animate({ height: 0}, 700)
                       .animate({ opacity: 1.0}, 700)
                       .queue(function() { 
-                         $(this).css({ "border" : "200px solid red" });
+                         $(this).css({ "border" : "100px solid red" });
                          $(this).dequeue();
                       }).queue(function() {
                           $(".p01").text("OK!").css({ "color" : "green" });
